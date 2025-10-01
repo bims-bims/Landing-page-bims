@@ -135,6 +135,56 @@ export default function App() {
         </div>
       </section>
 
+      {/* Kenapa Harus Belajar di LearnWithBims */}
+<section className="px-6 py-16 bg-gray-900 text-white text-center">
+  <h2 className="text-3xl font-bold mb-8">
+    Kenapa Harus Belajar di <span className="text-yellow-400">LearnWithBims?</span>
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+    {/* Card 1 */}
+    <div className="p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition">
+      <h3 className="text-xl font-bold mb-3 text-yellow-400">🌍 Bahasa Indonesia</h3>
+      <p className="text-gray-300">
+        Belajar blockchain dan smart contract dari internet seringkali sulit karena
+        mayoritas materi menggunakan <span className="font-semibold">bahasa Inggris</span>.
+        Di LearnWithBims, semua materi kami disampaikan dalam bahasa Indonesia yang jelas
+        dan mudah dipahami.
+      </p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition">
+      <h3 className="text-xl font-bold mb-3 text-yellow-400">📚 Terstruktur & Step-by-Step</h3>
+      <p className="text-gray-300">
+        Belajar dari sumber internet sering kali <span className="font-semibold">tidak
+        terstruktur</span>, membuat bingung harus mulai dari mana. LearnWithBims
+        menyusun kurikulum yang rapi dari dasar hingga konsep lanjutan.
+      </p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition">
+      <h3 className="text-xl font-bold mb-3 text-yellow-400">🚀 Fokus pada Praktik</h3>
+      <p className="text-gray-300">
+        Kami tidak hanya memberi teori, tapi juga <span className="font-semibold">contoh
+        kode siap pakai</span> dan analogi yang mudah dicerna. Kamu bisa langsung praktek
+        membangun project Web3 tanpa harus pusing mencari referensi ke sana-sini.
+      </p>
+    </div>
+  </div>
+
+  {/* Marketing Punchline */}
+  <div className="max-w-3xl mx-auto mt-12">
+    <p className="text-lg text-gray-200 italic">
+      Belajar blockchain bukan hanya tentang teknologi, tapi tentang membuka peluang
+      baru di masa depan. Dengan <span className="font-bold text-yellow-400">LearnWithBims</span>,
+      kamu bisa hemat waktu, terhindar dari kebingungan, dan langsung fokus ke inti pembelajaran.
+    </p>
+  </div>
+</section>
+
+
    {/* Kurikulum */}
 <section className="px-6 py-16 bg-gray-100 text-center">
   <h2 className="text-3xl font-bold mb-10 text-black">Kurikulum Blockchain Fundamental</h2>
