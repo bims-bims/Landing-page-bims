@@ -455,8 +455,24 @@ export default function App() {
         allowFullScreen
       ></iframe>
     </div>
- <span className=" text-white font-bold">2. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End Mobilqu</span>.
+
+<span className=" text-white font-bold">2. Video Menjelaskan Tentang Konsep Fungsi Soldity</span>.
     {/* Video 2 */}
+    <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe
+        className="w-full h-full"
+        src="https://www.youtube.com/embed/P-DBgxqEm4I?si=juC3YNnctdLaw0ge"
+        title="Contoh Video Tutorial 3"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+
+
+
+ <span className=" text-white font-bold">2. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End Mobilqu</span>.
+    {/* Video 3 */}
     <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <iframe
         className="w-full h-full"
@@ -468,7 +484,7 @@ export default function App() {
       ></iframe>
     </div>
  <span className=" text-white font-bold">3. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End My-UangKas</span>.
-    {/* Video 3 */}
+    {/* Video 4 */}
     <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <iframe
         className="w-full h-full"
@@ -479,6 +495,8 @@ export default function App() {
         allowFullScreen
       ></iframe>
     </div>
+
+    
   </div>
 </section>
 
