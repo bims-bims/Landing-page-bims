@@ -15,6 +15,24 @@ import card11 from "./assets/card/card11.png";
 import card12 from "./assets/card/card12.png";
 import card13 from "./assets/card/card13.png";
 import card14 from "./assets/card/card14.png";
+import card15 from "./assets/card/card15.png";
+import card16 from "./assets/card/card16.png";
+import card17 from "./assets/card/card17.png";
+import card18 from "./assets/card/card18.png";
+import card19 from "./assets/card/card19.png";
+import card20 from "./assets/card/card20.png";
+import card21 from "./assets/card/card21.png";
+import card22 from "./assets/card/card22.png";
+import card23 from "./assets/card/card23.png";
+import card24 from "./assets/card/card24.png";
+import card25 from "./assets/card/card25.png";
+import card26 from "./assets/card/card26.png";
+import card27 from "./assets/card/card27.png";
+import card28 from "./assets/card/card28.png";
+import card29 from "./assets/card/card29.png";
+import card30 from "./assets/card/card30.png";
+
+
 import PembelianPopup from "./pembelian";
 
 
@@ -119,7 +137,7 @@ export default function App() {
 
    {/* Kurikulum */}
 <section className="px-6 py-16 bg-gray-100 text-center">
-  <h2 className="text-3xl font-bold mb-10 text-black">Kurikulum Belajar</h2>
+  <h2 className="text-3xl font-bold mb-10 text-black">Kurikulum Blockchain Fundamental</h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
     {[
       {
@@ -193,84 +211,84 @@ export default function App() {
         desc: "Cara kerja Proses Cara Kerja Pembuatan Wallet .",
       },
       {
-        title: "Liquidity Pool",
-        img: "https://source.unsplash.com/400x300/?pool,crypto",
-        desc: "Bagaimana pool likuiditas bekerja di DeFi.",
+        title: "Jaringan Tesnet, Faucet dan Mainnet",
+        img: card15,
+        desc: "Menjelaskan Apa Perbedaan Testnet, Mainnet Dan Kegunaan Faucet",
       },
       {
-        title: "Staking & Yield Farming",
-        img: "https://source.unsplash.com/400x300/?staking,crypto",
-        desc: "Mendapatkan reward dari staking token.",
+        title: "login Menggunakan Wallet",
+        img: card16,
+        desc: "Menggunakan Wallet Untuk Login Aplikasi Web3.",
       },
       {
-        title: "DAO (Decentralized Autonomous Org)",
-        img: "https://source.unsplash.com/400x300/?community,blockchain",
-        desc: "Konsep organisasi terdesentralisasi di blockchain.",
+        title: "Gas Fee",
+        img: card17,
+        desc: "Menjelaskan Apa Itu Konsep Gass Fee di Blockchain.",
       },
       {
-        title: "Security Blockchain",
-        img: "https://source.unsplash.com/400x300/?security,blockchain",
-        desc: "Risiko dan best practice keamanan di blockchain.",
+        title: "Ethereum Dan Smart Contract",
+        img: card18,
+        desc: "Pengenalan Sejarah Ethereum Dan Apa Itu SmartContract.",
       },
       {
-        title: "Scalability & Layer 2",
-        img: "https://source.unsplash.com/400x300/?scalability,tech",
-        desc: "Optimisasi transaksi dengan Layer 2.",
+        title: "Apa Itu Remix",
+        img: card19,
+        desc: "Pengenalan Lingkungan Remix IDE.",
       },
       {
-        title: "Bridges & Interoperability",
-        img: "https://source.unsplash.com/400x300/?bridge,blockchain",
-        desc: "Menghubungkan blockchain yang berbeda.",
+        title: "Object Oriented Programming",
+        img: card20,
+        desc: "Mempelajari Konsep OOP Di Solidity.",
       },
       {
-        title: "NFT Marketplace",
-        img: "https://source.unsplash.com/400x300/?marketplace,nft",
-        desc: "Membangun marketplace NFT sederhana.",
+        title: "Apa Itu Variabel Dan Tipe Data",
+        img: card21,
+        desc: "Memahami Konsep Variabel Dan Tipe Data Di Solidity.",
       },
       {
-        title: "Metaverse & Blockchain",
-        img: "https://source.unsplash.com/400x300/?metaverse,vr",
-        desc: "Hubungan metaverse dengan teknologi blockchain.",
+        title: "Apa Itu Fungsi Di Solidity",
+        img: card22,
+        desc: "Pengenalan Konsep Fungsi dengan Solidity.",
       },
       {
-        title: "GameFi",
-        img: "https://source.unsplash.com/400x300/?game,crypto",
-        desc: "Game berbasis blockchain dan play-to-earn.",
+        title: "Fungsi Dengan Parameter",
+        img: card23,
+        desc: "Mengetahui Konsep Fungsi Dengan Parameter Di Soldity.",
       },
       {
-        title: "Crypto Regulations",
-        img: "https://source.unsplash.com/400x300/?law,crypto",
-        desc: "Regulasi cryptocurrency di berbagai negara.",
+        title: "Apa Itu Fungsi Output",
+        img: card24,
+        desc: "mengetahui Fungsi Output Di Solidity",
       },
       {
-        title: "Stablecoin",
-        img: "https://source.unsplash.com/400x300/?stablecoin,finance",
-        desc: "Jenis stablecoin dan penggunaannya.",
+        title: "Apa Itu Fungsi Spesial",
+        img: card25,
+        desc: "Mengetahui Konsep Fungsi Spesial Di Solidity.",
       },
       {
-        title: "CBDC (Central Bank Digital Currency)",
-        img: "https://source.unsplash.com/400x300/?bank,digital",
-        desc: "Konsep mata uang digital bank sentral.",
+        title: "Inheritance",
+        img: card26,
+        desc: "Mengenal Konsep Pewarisan Pada Solidity.",
       },
       {
-        title: "Blockchain Supply Chain",
-        img: "https://source.unsplash.com/400x300/?supply,chain",
-        desc: "Penggunaan blockchain di rantai pasokan.",
+        title: "Data Location",
+        img: card27,
+        desc: "Mengenal Konsep Penggunaan Data Location Solidity.",
       },
       {
-        title: "Healthcare & Blockchain",
-        img: "https://source.unsplash.com/400x300/?health,blockchain",
-        desc: "Penerapan blockchain di bidang kesehatan.",
+        title: "Encapsulation",
+        img: card28,
+        desc: "Mengenal Konsep Encapsulation Pada Solidity.",
       },
       {
-        title: "Blockchain & IoT",
-        img: "https://source.unsplash.com/400x300/?iot,blockchain",
-        desc: "Integrasi blockchain dengan Internet of Things.",
+        title: "Encapsulation Modifier Payable",
+        img: card29,
+        desc: "Mengenal Konsep Encapsulation Payable.",
       },
       {
-        title: "Masa Depan Blockchain",
-        img: "https://source.unsplash.com/400x300/?future,blockchain",
-        desc: "Prediksi dan tren blockchain ke depan.",
+        title: "Deploy Kontrak Dengan Wallet",
+        img: card30,
+        desc: "Mendeploy Smart Contract Dengan Wallet.",
       },
     ].map((item, i) => (
       <div
@@ -354,8 +372,13 @@ export default function App() {
       },
       {
         q: "Apakah saya akan mendapatkan source code dalam video ini?",
-        a: "Ya, setelah menyelesaikan kursus, kamu akan mendapatkan link Source Code.",
+        a: "Ya, kamu akan mendapatkan link Source Code.",
       },
+      {
+        q: "Apakah kursus ini mengajarkan step by step Penulisan Kode ( CODING )?",
+        a: "Tidak, kursus ini berfokus pada smart contract untuk memahami konsep dasarnya, bukan panduan coding langkah demi langkah Kami memberikan Source Code yang siap Digunakan untuk Praktek.",
+      },
+
       {
         q: "Bagaimana cara saya mengakses materi?",
         a: "Kamu akan mendapatkan akses ke platform belajar online setelah melakukan pembayaran.",
