@@ -185,6 +185,77 @@ export default function App() {
 </section>
 
 
+
+{/* Penerapan Blockchain di Kehidupan Nyata */}
+<section className="px-6 py-16 bg-white text-gray-900 text-center">
+  <h2 className="text-3xl font-bold mb-8">
+    Penerapan <span className="text-yellow-600">Blockchain</span> di Kehidupan Nyata
+  </h2>
+
+  <p className="max-w-3xl mx-auto mb-12 text-gray-600">
+    Blockchain bukan hanya tentang <span className="font-semibold">cryptocurrency</span>.
+    Teknologi ini sudah digunakan di berbagai bidang yang mempermudah hidup sehari-hari.
+  </p>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+    {/* Card 1 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">💸 Keuangan (Fintech)</h3>
+      <p className="text-gray-700">
+        Digunakan untuk <span className="font-semibold">transfer uang lintas negara</span> 
+        dengan biaya rendah dan proses cepat, tanpa harus melalui bank tradisional.
+      </p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">📦 Supply Chain</h3>
+      <p className="text-gray-700">
+        Melacak asal-usul barang, mulai dari pertanian, distribusi, hingga sampai ke konsumen.
+        Semua data transparan dan tidak bisa dimanipulasi.
+      </p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">🏥 Kesehatan</h3>
+      <p className="text-gray-700">
+        Penyimpanan <span className="font-semibold">rekam medis digital</span> yang aman,
+        hanya bisa diakses oleh pasien dan pihak rumah sakit dengan izin.
+      </p>
+    </div>
+
+    {/* Card 4 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">🎨 NFT & Kreator Digital</h3>
+      <p className="text-gray-700">
+        Seniman bisa menjual karya digital mereka dalam bentuk 
+        <span className="font-semibold"> NFT</span>, sehingga hak cipta dan kepemilikan tercatat di blockchain.
+      </p>
+    </div>
+
+    {/* Card 5 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">🏛️ Pemerintahan</h3>
+      <p className="text-gray-700">
+        Digunakan untuk <span className="font-semibold">e-voting</span> yang lebih transparan,
+        aman, dan sulit dimanipulasi.
+      </p>
+    </div>
+
+    {/* Card 6 */}
+    <div className="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-xl shadow-md">
+      <h3 className="text-xl font-bold mb-3 text-yellow-600">🎮 Gaming</h3>
+      <p className="text-gray-700">
+        Aset dalam game seperti skin, senjata, atau karakter bisa dimiliki
+        sepenuhnya oleh pemain melalui teknologi <span className="font-semibold">Web3 gaming</span>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
    {/* Kurikulum */}
 <section className="px-6 py-16 bg-gray-100 text-center">
   <h2 className="text-3xl font-bold mb-10 text-black">Kurikulum Blockchain Fundamental</h2>
