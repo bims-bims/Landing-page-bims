@@ -15,6 +15,7 @@ import card11 from "./assets/card/card11.png";
 import card12 from "./assets/card/card12.png";
 import card13 from "./assets/card/card13.png";
 import card14 from "./assets/card/card14.png";
+import PembelianPopup from "./pembelian";
 
 
 export default function App() {
@@ -55,7 +56,7 @@ export default function App() {
           rel="noopener noreferrer"
           className="px-4 py-2 bg-yellow-400 text-black font-semibold rounded-lg shadow hover:bg-yellow-500 transition"
         >
-          Login Member
+          Refund
         </a>
       </header>
 
@@ -109,7 +110,7 @@ export default function App() {
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl text-black font-bold mb-2">🚀 Skill Berharga</h3>
             <p className="text-black">
-              Tidak hanya teori, kamu akan belajar praktik langsung yang bisa
+              Tidak hanya teori, kamu akan belajar praktik Konsepetual Dengan Kode Yang Sudah Di Sediakan langsung yang bisa
               dipakai untuk membangun project Web3.
             </p>
           </div>
@@ -289,36 +290,138 @@ export default function App() {
     ))}
   </div>
 </section>
-      {/* Contoh Video Tutorial */}
-      <section className="px-6 py-16 bg-black text-center">
-        <h2 className="text-3xl font-bold mb-8 text-white">
-          Contoh Video Pembelajaran
-        </h2>
-        <p className="text-gray-700 max-w-2xl mx-auto mb-8">
-          Tonton cuplikan singkat dari salah satu materi kami untuk merasakan
-          bagaimana cara belajar di <span className="font-bold">LearnWithBims</span>.
-        </p>
-        <div className="flex justify-center">
-          <div className="w-full max-w-3xl aspect-video rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Contoh Video Tutorial"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
+{/* Contoh Video Tutorial */}
+{/* Contoh Video Tutorial */}
+<section className="px-6 py-16 bg-black text-center">
+  <h2 className="text-3xl font-bold mb-8 text-white">
+    Contoh Video Pembelajaran
+  </h2>
+  <p className="text-white max-w-2xl mx-auto mb-8">
+    Tonton cuplikan singkat dari beberapa materi kami untuk merasakan
+    bagaimana cara belajar di <span className="font-bold">LearnWithBims</span>.
+  </p>
+
+  <div className="flex flex-col space-y-8 max-w-3xl mx-auto">
+      <p className="text-white max-w-2xl mx-auto mb-8">
+    <span className="font-bold">1. Video Menjelaskan Bagaimana Tanda Tangan Digital Bekerja</span>.
+  </p>
+    {/* Video 1 */}
+    <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe
+        className="w-full h-full"
+        src="https://www.youtube.com/embed/qy18rPOJleo?si=VS3AGFQKY-4ryIYb"
+        title="Contoh Video Tutorial 1"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+ <span className=" text-white font-bold">2. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End Mobilqu</span>.
+    {/* Video 2 */}
+    <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe
+        className="w-full h-full"
+        src="https://www.youtube.com/embed/APV9td0ee64?rel=0&modestbranding=1"
+        title="Contoh Video Tutorial 2"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+ <span className=" text-white font-bold">3. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End My-UangKas</span>.
+    {/* Video 3 */}
+    <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe
+        className="w-full h-full"
+        src="https://www.youtube.com/embed/mSybnXqoZaQ?si=4f54P2kalx7O7zF"
+        title="Contoh Video Tutorial 3"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+{/* FAQ */}
+<section className="px-6 py-16 bg-gray-100 text-black">
+  <h2 className="text-3xl font-bold mb-10 text-center">FAQ DISCLAIMER</h2>
+  <div className="max-w-4xl mx-auto space-y-4">
+    {[
+      {
+        q: "Apakah kursus ini cocok untuk pemula?",
+        a: "Ya, kursus ini dirancang untuk pemula yang belum memiliki pengalaman di blockchain.",
+      },
+      {
+        q: "Apakah saya akan mendapatkan source code dalam video ini?",
+        a: "Ya, setelah menyelesaikan kursus, kamu akan mendapatkan link Source Code.",
+      },
+      {
+        q: "Bagaimana cara saya mengakses materi?",
+        a: "Kamu akan mendapatkan akses ke platform belajar online setelah melakukan pembayaran.",
+      },
+      {
+        q: "Apakah ada garansi setelah kursus mendapat pekerjaan?",
+        a: "Tidak ada. Kami tidak memberikan jaminan pekerjaan setelah kursus.",
+      },
+      {
+        q: "Apakah di kursus ini mengajarkan Front End React JS?",
+        a: "Tidak. Tapi kami menyediakan kode front end seperti React yang tinggal kamu copy-paste.",
+      },
+      {
+        q: "Apakah kursus ini menjanjikan setelah belajar fundamental blockchain menjadi pintar?",
+        a: "Tidak. Kami tidak menjanjikan hal itu. Semua kembali pada konsistensi belajar kamu.",
+      },
+      {
+        q: "Apakah bisa refund?",
+        a: "Bisa, dengan syarat melakukan refund maksimal 1 x 24 jam setelah pembelian dan Melampirkan Bukti.",
+      },
+      {
+        q: "Di mana jika saya bingung ingin bertanya tentang materi kursus ini?",
+        a: "Kami menyediakan grup komunitas untuk saling sharing dan bertanya.",
+      },
+    ].map((item, i) => (
+      <details
+        key={i}
+        className="bg-white rounded-lg shadow p-4 cursor-pointer border border-gray-200"
+      >
+        <summary className="font-semibold text-lg flex justify-between items-center">
+          {item.q}
+          <span className="text-gray-500">➕</span>
+        </summary>
+        <p className="mt-2 text-gray-700">{item.a}</p>
+      </details>
+    ))}
+  </div>
+</section>
+
+
+
+  {/* Disclaimer */}
+<section className="px-6 py-10 bg-yellow-100 border-l-4 border-r-4 border-yellow-500 text-yellow-800 rounded-md shadow-md">
+  <div className="max-w-6xl mx-auto flex items-start space-x-3">
+    {/* Icon Warning */}
+    <div className="text-yellow-500 text-6xl">⚠️</div>
+
+    {/* Text Disclaimer */}
+    <p className="text-left text-sm leading-relaxed">
+      <span className="font-bold">Disclaimer:</span> Materi yang disediakan di kursus ini 
+      hanya untuk tujuan edukasi mengenai <span className="font-semibold">teknologi blockchain</span>. 
+      Kami <span className="font-semibold">tidak memberikan pelatihan trading cryptocurrency</span>, 
+      tidak menjamin keuntungan finansial, dan tidak memberikan saran investasi. 
+      Harap gunakan pengetahuan ini secara bijak.
+    </p>
+  </div>
+</section>
+
 
 
       {/* Section Harga Diskon - dipindahkan ke bawah */}
       <section className="px-6 py-16 bg-gray-900 text-center">
         <h2 className="text-3xl font-bold text-yellow-400 mb-6">
-          Promo Spesial!
+          Promo Spesial Untuk 10 Orang Saja!
         </h2>
-        <p className="text-white mb-4">Dapatkan harga diskon terbatas:</p>
+        <p className="text-white mb-4">Dapatkan harga diskon terbatas Hanya Untuk :</p>
 
         <div className="flex justify-center items-center space-x-6 mb-6">
           <span className="text-3xl font-bold text-red-500 line-through">
@@ -357,10 +460,58 @@ export default function App() {
         </a>
       </section>
 
+      
+
+      {/* Testimoni */}
+{/* <section className="px-6 py-16 bg-white text-center">
+  <h2 className="text-3xl font-bold mb-10 text-black">Apa Kata Mereka?</h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    {[
+      {
+        name: "Andi Pratama",
+        role: "Mahasiswa ITB",
+        comment:
+          "Kursus ini sangat membantu saya memahami dasar blockchain dengan cara yang sederhana. Cocok banget buat pemula!",
+        img: "https://randomuser.me/api/portraits/men/32.jpg",
+      },
+      {
+        name: "Siti Aisyah",
+        role: "Freelancer Web3",
+        comment:
+          "Materinya jelas dan langsung ke inti. Saya bisa mulai bikin project kecil-kecilan di Web3 setelah ikut kursus ini.",
+        img: "https://randomuser.me/api/portraits/women/44.jpg",
+      },
+      {
+        name: "Budi Santoso",
+        role: "Software Engineer",
+        comment:
+          "Belajar blockchain jadi lebih gampang dengan analogi dan ilustrasi. Recommended banget!",
+        img: "https://randomuser.me/api/portraits/men/12.jpg",
+      },
+    ].map((item, i) => (
+      <div
+        key={i}
+        className="bg-gray-100 rounded-xl p-6 shadow-lg hover:shadow-2xl transition"
+      >
+        <img
+          src={item.img}
+          alt={item.name}
+          className="w-20 h-20 rounded-full mx-auto mb-4 object-cover shadow-md"
+        />
+        <h3 className="font-bold text-lg">{item.name}</h3>
+        <p className="text-sm text-gray-500 mb-2">{item.role}</p>
+        <p className="text-gray-700 italic">“{item.comment}”</p>
+      </div>
+    ))}
+  </div>
+</section> */}
+
       {/* Footer */}
       <footer className="px-6 py-6 bg-black text-center text-white text-sm">
         © {new Date().getFullYear()} LearnWithBims. All rights reserved.
       </footer>
-    </div>
+
+       <PembelianPopup />
+    </div >
   );
 }
