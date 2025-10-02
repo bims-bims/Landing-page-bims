@@ -31,7 +31,9 @@ import card27 from "./assets/card/card27.png";
 import card28 from "./assets/card/card28.png";
 import card29 from "./assets/card/card29.png";
 import card30 from "./assets/card/card30.png";
-
+import pepe from "./assets/card/pepe.png";
+import shiba from "./assets/card/shiba.png";
+import floki from "./assets/card/floki.png";
 
 import PembelianPopup from "./pembelian";
 
@@ -69,7 +71,7 @@ export default function App() {
       <header className="flex items-center justify-between px-6 py-4 shadow">
         <h1 className="font-bold text-xl text-white">LearnWithBims</h1>
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/6282374117822"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 bg-yellow-400 text-black font-semibold rounded-lg shadow hover:bg-yellow-500 transition"
@@ -95,14 +97,6 @@ export default function App() {
           smart contract, dan aplikasi Web3. Pembelajaran menggunakan analogi dan
           ilustrasi yang menarik supaya dapat dimengerti oleh Peserta.
         </p>
-        <a
-          href="https://wa.me/6281234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-green-600 text-black font-bold rounded-lg shadow hover:bg-yellow-600 transition"
-        >
-          Daftar Sekarang
-        </a>
       </section>
 
       {/* Alasan Kenapa Belajar Blockchain */}
@@ -429,7 +423,85 @@ export default function App() {
     ))}
   </div>
 </section>
-{/* Contoh Video Tutorial */}
+
+{/* Kelebihan Smart Contract */}
+<section className="px-6 py-16 bg-gray-100 text-gray-900">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-8">
+      Kelebihan Smart Contract dalam Kehidupan Nyata
+    </h2>
+    <p className="max-w-2xl mx-auto mb-12 text-gray-600">
+      Smart contract memberikan banyak keuntungan karena berjalan otomatis 
+      tanpa perantara. Berikut beberapa contoh penerapan nyata:
+    </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Card 1 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">💳</div>
+        <h3 className="text-xl font-semibold mb-2">Pembayaran Otomatis</h3>
+        <p className="text-sm text-gray-600">
+          Transaksi dapat dilakukan secara instan tanpa bank, 
+          aman dan transparan.
+        </p>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">🏠</div>
+        <h3 className="text-xl font-semibold mb-2">Properti & Sewa</h3>
+        <p className="text-sm text-gray-600">
+          Perjanjian sewa atau jual beli properti bisa otomatis 
+          tereksekusi tanpa notaris.
+        </p>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">🎵</div>
+        <h3 className="text-xl font-semibold mb-2">Hak Cipta Digital</h3>
+        <p className="text-sm text-gray-600">
+          Royalti musik, seni, dan video bisa langsung dibayar ke pencipta 
+          melalui smart contract.
+        </p>
+      </div>
+
+      {/* Card 4 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">🏦</div>
+        <h3 className="text-xl font-semibold mb-2">DeFi & Pinjam-Meminjam</h3>
+        <p className="text-sm text-gray-600">
+          Seseorang bisa meminjam atau memberikan pinjaman tanpa bank 
+          dengan bunga otomatis lewat smart contract.
+        </p>
+      </div>
+
+      {/* Card 5 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">🚚</div>
+        <h3 className="text-xl font-semibold mb-2">Supply Chain & Logistik</h3>
+        <p className="text-sm text-gray-600">
+          Barang bisa dilacak dari pabrik sampai konsumen dengan transparan 
+          menggunakan smart contract.
+        </p>
+      </div>
+
+      {/* Card 6 */}
+      <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <div className="text-4xl mb-4">🛡️</div>
+        <h3 className="text-xl font-semibold mb-2">Asuransi</h3>
+        <p className="text-sm text-gray-600">
+          Klaim asuransi bisa diproses otomatis berdasarkan data valid, 
+          tanpa birokrasi panjang.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 {/* Contoh Video Tutorial */}
 <section className="px-6 py-16 bg-black text-center">
   <h2 className="text-3xl font-bold mb-8 text-white">
@@ -471,7 +543,7 @@ export default function App() {
 
 
 
- <span className=" text-white font-bold">2. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End Mobilqu</span>.
+ <span className=" text-white font-bold">3. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End Mobilqu</span>.
     {/* Video 3 */}
     <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <iframe
@@ -483,7 +555,7 @@ export default function App() {
         allowFullScreen
       ></iframe>
     </div>
- <span className=" text-white font-bold">3. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End My-UangKas</span>.
+ <span className=" text-white font-bold">4. Video Menjelaskan Mengintegrasikan Smart Contract Dengan Front End My-UangKas</span>.
     {/* Video 4 */}
     <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <iframe
@@ -499,6 +571,58 @@ export default function App() {
     
   </div>
 </section>
+
+{/* Project Akhir: Membuat Token Sendiri */}
+<section className="px-6 py-16 bg-gray-100 text-center">
+  <h2 className="text-3xl font-bold mb-10 text-black">
+    Project Akhir: Membuat Token Sendiri (ERC20)
+  </h2>
+
+  <p className="max-w-3xl mx-auto text-gray-700 mb-12 text-base leading-relaxed">
+    Di akhir kursus ini, kamu akan mempraktekkan langsung cara membuat 
+    <span className="font-bold"> token ERC20</span> di jaringan Ethereum.  
+    Token yang kamu buat akan serupa dengan token populer seperti:
+  </p>
+
+  <div className="flex flex-wrap justify-center items-center gap-12">
+    {/* Contoh Token */}
+    <div className="flex flex-col items-center">
+      <img
+        src={pepe}
+        alt="PEPE Token"
+        className="w-20 h-20 mb-4"
+      />
+      <h3 className="text-lg font-semibold">PEPE</h3>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src={shiba}
+        alt="SHIBA Token"
+        className="w-20 h-20 mb-4"
+      />
+      <h3 className="text-lg font-semibold">SHIBA</h3>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src={floki}
+        alt="ERC20 Token"
+        className="w-20 h-20 mb-4"
+      />
+      <h3 className="text-lg font-semibold">FLOKI</h3>
+    </div>
+  </div>
+
+  <p className="max-w-2xl mx-auto text-gray-600 mt-10">
+    Jadi setelah kursus selesai,Selain Membuat Project MobilQu Dapps Dan My-Uangkas Dapps kamu akan punya token sendiri yang bisa
+    digunakan di jaringan Ethereum, sama seperti token-token terkenal di dunia
+    kripto 🚀
+  </p>
+</section>
+
+
+
 
 {/* FAQ */}
 <section className="px-6 py-16 bg-gray-100 text-black">
@@ -578,49 +702,78 @@ export default function App() {
 
 
 
-      {/* Section Harga Diskon - dipindahkan ke bawah */}
-      <section className="px-6 py-16 bg-gray-900 text-center">
-        <h2 className="text-3xl font-bold text-yellow-400 mb-6">
-          Promo Spesial Untuk 10 Orang Saja!
-        </h2>
-        <p className="text-white mb-4">Dapatkan harga diskon terbatas Hanya Untuk :</p>
+{/* Section Join Whitelist dengan Harga Spesial */}
+<section className="px-6 py-16 bg-gray-900 text-center">
+  <h2 className="text-3xl font-bold text-yellow-400 mb-6">
+    Join Whitelist & Dapatkan Harga Spesial 🚀
+  </h2>
+  <p className="text-white mb-4">
+    Bergabung ke whitelist sekarang dan amankan harga spesial launching.  
+    Tidak perlu bayar sekarang, cukup daftar dulu!
+  </p>
 
-        <div className="flex justify-center items-center space-x-6 mb-6">
-          <span className="text-3xl font-bold text-red-500 line-through">
-            Rp 321.200
-          </span>
-          <span className="text-4xl font-extrabold text-green-400">
-            Rp 89.940
-          </span>
-        </div>
+  <div className="flex justify-center items-center space-x-6 mb-6">
+    <span className="text-3xl font-bold text-red-500 line-through">
+      Rp 321.200
+    </span>
+    <span className="text-4xl font-extrabold text-green-400">
+      Rp 89.940
+    </span>
+  </div>
 
-        {/* Countdown Timer */}
-        <div className="bg-yellow-400 text-black px-6 py-4 rounded-lg shadow inline-block">
-          <p className="font-bold">Diskon Berakhir Dalam:</p>
-          <div className="flex justify-center space-x-4 mt-2 text-lg font-mono">
-            <span>{timeLeft.hours ?? "00"}h</span>:
-            <span>{timeLeft.minutes ?? "00"}m</span>:
-            <span>{timeLeft.seconds ?? "00"}s</span>
-          </div>
-        </div>
-      </section>
+  <p className="text-sm text-gray-400 mb-6">
+    *Harga spesial ini hanya berlaku bagi yang join whitelist.  
+    Pembayaran dilakukan saat kursus resmi dibuka.
+  </p>
 
-      {/* CTA */}
-      <section className="px-6 py-16 bg-green-600 text-center text-white">
-        <h2 className="text-3xl font-bold mb-6">Siap Belajar Blockchain?</h2>
-        <p className="max-w-2xl mx-auto mb-6">
-          Jangan lewatkan kesempatan untuk memahami teknologi yang akan mengubah
-          dunia. Daftar sekarang dan mulai perjalananmu!
-        </p>
-        <a
-          href="https://wa.me/6281234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow hover:bg-yellow-500 transition"
-        >
-          Daftar Sekarang
-        </a>
-      </section>
+  <a
+    href="https://wa.me/6282374117822?text=Halo%2C%20saya%20mau%20join%20whitelist%20LearnWithBims"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow hover:bg-yellow-500 transition"
+  >
+    Join Whitelist Sekarang
+  </a>
+</section>
+
+
+{/* Centered Countdown Timer */}
+<section className="px-6 py-8 bg-black">
+  <div className="max-w-6xl mx-auto flex justify-center">
+    <div className="bg-yellow-400 text-black px-6 py-4 rounded-lg shadow flex flex-col items-center">
+      <p className="font-bold mb-2">whitelist Berakhir Dalam:</p>
+      <div className="flex items-center justify-center space-x-3 mt-1 text-lg font-mono">
+        <span>{String(timeLeft.hours ?? 0).padStart(2, "0")}h</span>
+        <span>:</span>
+        <span>{String(timeLeft.minutes ?? 0).padStart(2, "0")}m</span>
+        <span>:</span>
+        <span>{String(timeLeft.seconds ?? 0).padStart(2, "0")}s</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+      {/* Join Whitelist CTA */}
+<section className="px-6 py-16 bg-blue-700 text-center text-white">
+  <h2 className="text-3xl font-bold mb-6">Join Whitelist Sekarang 🚀</h2>
+  <p className="max-w-2xl mx-auto mb-6">
+    Beberapa kursus masih dalam tahap pengembangan dan akan segera dirilis. 
+    Daftar whitelist agar kamu jadi yang pertama mendapatkan akses saat kursus baru tersedia!
+  </p>
+  <a
+    href="https://wa.me/6282374117822"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg shadow hover:bg-yellow-500 transition"
+  >
+    Join Whitelist
+  </a>
+</section>
+
 
       
 

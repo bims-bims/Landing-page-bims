@@ -31,7 +31,7 @@ function PembelianPopup() {
       <p className="text-sm font-semibold">
         📢 {user.name} dari {user.city}
       </p>
-      <p className="text-xs text-gray-500">baru saja membeli kursus ini 🎉</p>
+      <p className="text-xs text-gray-500">Baru JoinWhitlist Kursus Ini 🎉</p>
     </div>
   );
 }
